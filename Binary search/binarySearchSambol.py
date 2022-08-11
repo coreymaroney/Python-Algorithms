@@ -6,7 +6,8 @@ def binarySearch(nums: List[int], target: int) -> int:
     right = len(nums)
 
     while (left + 1 < right):
-        mid = math.ceil((right + left) // 2)
+        mid = math.ceil((right + left) / 2)  # This is where I found the error, where Sambol did floor division (//) instead of float division (/)
+        # mid = (right + left) // 2 # this is what Sambol accidentally did where his code rounded down instead of up like his explanation
         print(f'Mid value is: {nums[mid]}')
         
         if (target == nums[mid]):
