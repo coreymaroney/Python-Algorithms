@@ -1,2 +1,2 @@
 # Python Algorithms implemented from scratch
-Implementing algorithms for visualization purposes, primarily to see their behavior during different stages of runtime
+This repository exists to show the behavior of algorithms during different stages of runtime. This is particularly helpful for seeing how edge cases interact with what I've written.
