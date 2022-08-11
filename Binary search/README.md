@@ -1,1 +1,1 @@
-Visualizing a quirk I found within Michael Sambol (@msambol) "Binary search in 3 minutes" video.
+This script is an implementation of binary search to visualize a quirk I found within Michael Sambol's (@msambol) "Binary search in 3 minutes" YouTube video.
